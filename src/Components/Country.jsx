@@ -1,22 +1,24 @@
 import React from 'react'
 import 'aos/dist/aos.css';
+import { Link  } from 'react-router-dom';
+
 const Country = () => {
   return (
-    <div className='mx-4 md:mx-10 lg:mx-32 bg-gray-100 font-poppins '>
+    <div className='mx-4 md:mx-10 lg:mx-32 font-poppins  bg-gray-50'>
         <div>
-            <div className='mb-10 text-center'>
-                <p className='text-gray-800 text-lg font-semibold my-2 pt-6'>Countries To Apply</p>
-                <h1 className='text-green-600 font-bold text-xl'>Let Us Arrange Your Expedition To Dreamland</h1>
+            <div className=' text-center mb-2 md:mb-6 lg:mb-10  '>
+                <p className='text-[#EC008C] font-semibold text-lg my-2 pt-6'>Countries To Apply</p>
+                <h1 className='text-[#005AAB] font-bold text-4xl'>Let Us Arrange Your Expedition To Dreamland</h1>
             </div>
-            <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-8  mb-4 md:mb-10'>
+            <div className='grid grid-cols-1 lg:grid-cols-2 gap-2 md:gap-4  mb-2 md:mb-3'>
                 <div data-aos="fade-right" data-aos-duration="1000" className='relative overflow-hidden rounded-3xl '>
-                    <div className='overflow-hidden '>
-                        <img className='w-full h-full object-cover hover:scale-125 duration-500 ease-in-out cursor-pointer' src="https://assets.traveltriangle.com/blog/wp-content/uploads/2015/09/Auckland.jpg" alt="ukimage" />
+                    <div className='overflow-hidden  shadow-lg shadow-black border-3'>
+                        <img className='w-full h-full object-cover  hover:scale-125 duration-500 ease-in-out cursor-pointer' src="https://assets.traveltriangle.com/blog/wp-content/uploads/2015/09/Auckland.jpg" alt="ukimage" />
                     </div>
                     <div className='absolute inset-0 bg-black opacity-30 cursor-pointer '>
                     </div>
                     <div className='absolute inset-0 font-bold text-3xl font-poppins flex justify-center items-center text-center'>
-                        <h1 className='text-white text-center cursor-pointer hover:translate-y-[-10px] duration-300 ease-in-out'>Study in Siria</h1>
+                        <Link to='/abroad'  className='text-white text-center cursor-pointer hover:translate-y-[-10px] duration-300 ease-in-out'>Study in Siria</Link>
                     </div>
 
                 </div>
@@ -27,14 +29,14 @@ const Country = () => {
                     <div className='absolute inset-0 bg-black opacity-30 cursor-pointer'>
                     </div>
                     <div className='absolute inset-0 font-bold text-3xl font-poppins flex justify-center items-center text-center'>
-                        <h1 className='text-white text-center cursor-pointer hover:translate-y-[-10px] duration-300 ease-in-out'>Study in Newzealand</h1>
+                        <Link to='/abroad' className='text-white text-center cursor-pointer hover:translate-y-[-10px] duration-300 ease-in-out'>Study in Newzealand</Link>
                     </div>
 
                 </div>
 
             </div>
 
-            <div className='grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8'>
+            <div className='grid grid-cols-1 md:grid-cols-3 gap-2 md:gap-3 bg-white'>
                 <div data-aos="zoom-in-up" data-aos-duration='1000' className='relative overflow-hidden rounded-3xl '>
                     <div className='overflow-hidden '>
                         <img className='w-full h-full object-cover hover:scale-125 duration-500 ease-in-out cursor-pointer' src="https://media.cnn.com/api/v1/images/stellar/prod/191011110307-02-australia-beautiful-places.jpg?q=w_2187,h_1230,x_0,y_0,c_fill" alt="ukimage" />
@@ -42,7 +44,7 @@ const Country = () => {
                     <div className='absolute inset-0 bg-black opacity-30 cursor-pointer '>
                     </div>
                     <div className='absolute inset-0 font-bold text-3xl font-poppins flex justify-center items-center text-center'>
-                        <h1 className='text-white text-center cursor-pointer hover:translate-y-[-10px] duration-300 ease-in-out'>Study in Astralia</h1>
+                        <Link to='/abroad' className='text-white text-center cursor-pointer hover:translate-y-[-10px] duration-300 ease-in-out'>Study in Astralia</Link>
                     </div>
 
                 </div>
@@ -53,7 +55,7 @@ const Country = () => {
                     <div className='absolute inset-0 bg-black opacity-30 cursor-pointer'>
                     </div>
                     <div className='absolute inset-0 font-bold text-3xl font-poppins flex justify-center items-center text-center'>
-                        <h1 className='text-white text-center cursor-pointer hover:translate-y-[-10px] duration-300 ease-in-out'>Study in Cybrus</h1>
+                        <Link to='/abroad' className='text-white text-center cursor-pointer hover:translate-y-[-10px] duration-300 ease-in-out'>Study in Cybrus</Link>
                     </div>
 
                 </div>
@@ -64,7 +66,7 @@ const Country = () => {
                     <div className='absolute inset-0 bg-black opacity-30 cursor-pointer'>
                     </div>
                     <div className='absolute inset-0 font-bold text-3xl font-poppins flex justify-center items-center text-center'>
-                        <h1 className='text-white text-center cursor-pointer hover:translate-y-[-10px] duration-300 ease-in-out'>Study in UK</h1>
+                        <Link to='/abroad' className='text-white text-center cursor-pointer hover:translate-y-[-10px] duration-300 ease-in-out'>Study in UK</Link>
                     </div>
 
                 </div>

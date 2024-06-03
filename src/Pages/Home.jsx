@@ -1,23 +1,23 @@
 import React from 'react'
 import Country from "../Components/Country"
-import MeetConsult from "../Components/MeetConsult"
 import Review from "../Components/Review"
 import Service from "../Components/Service"
 import University from "../Components/University"
-import ServecePeriod from "../Components/ServecePeriod"
 import Body from "../Components/Body"
 import AboutConsultancy from "../Components/AboutConsultancy"
+import OurAchievement from '../Components/OurAchievement'
+import Journey from './Journey'
 const Home = () => {
   return (
     <div>
      <Body/>
-     <Country/>
      <AboutConsultancy/>
      <Service/>
-     <ServecePeriod/>
-     <MeetConsult/>
-     <University/>
+     <Country/>
+     <OurAchievement/>
+     <Journey/>
      <Review/>
+     <University/>
     </div>
   )
 }
